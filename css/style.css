@@ -22,6 +22,11 @@ body {
   background-color: var(--primary-color);
   font-family: "Kumbh Sans", sans-serif;
   position: relative;
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: top -10vh left -14vmin, bottom -50vh right -10vmin;
+  background-size: contain, contain;
 }
 .secondary-text {
   color: var(--grayish-color);
@@ -29,7 +34,7 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15em;
+  padding-top: 5em;
   max-width: 1024px;
 }
 .pattern-top {
@@ -105,4 +110,9 @@ body {
   font-size: 1.1rem;
   color: var(--dark-color);
   margin-bottom: 0.3em;
+}
+@media (min-width: 768px) {
+  .container {
+    padding-top: 15em;
+  }
 }
