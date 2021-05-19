@@ -29,8 +29,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Final Solution]()
-- Live Site URL: [Live Server]()
+- Solution URL: [Final Solution](https://www.frontendmentor.io/solutions/profile-card-component-with-pattern-background-9y1eZmHXF)
+- Live Site URL: [Live Server](https://lordaldi.github.io/ProfileCardComponent-FrontEndMentor/)
 
 ## My process
 
